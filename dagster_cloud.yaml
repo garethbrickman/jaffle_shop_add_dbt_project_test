@@ -1,0 +1,6 @@
+locations:
+- build:
+    directory: ./jaffle_shop_add_dbt_project_test
+  code_source:
+    module_name: jaffle_shop_add_dbt_project_test.definitions
+  location_name: jaffle_shop_add_dbt_project_test
