@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "Starting dagster_cloud_pre_install.sh..."
+echo "Starting dagster_cloud_pre_install.sh"
 
 ls -lah
 
