@@ -7,7 +7,7 @@ ls -lah
 
 echo "Prepare DBT project for deployment"
 python -m pip install pip --upgrade
-cd project-repo/${DAGSTER_PROJECT_NAME}
+cd ${DAGSTER_PROJECT_NAME}
 pip install . --upgrade --upgrade-strategy eager
 dagster-dbt project prepare-and-package --file ${DAGSTER_PROJECT_NAME}/project.py
 
