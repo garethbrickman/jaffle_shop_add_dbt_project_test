@@ -8,6 +8,6 @@ ls -lah
 echo "Prepare DBT project for deployment"
 python -m pip install pip --upgrade
 pip install . --upgrade --upgrade-strategy eager
-dagster-dbt project prepare-and-package --file ${DAGSTER_PROJECT_NAME}/project.py
+dagster-dbt project prepare-and-package --file jaffle_shop_add_dbt_project_test/project.py
 
 echo "Post-install script completed successfully."
